@@ -5,8 +5,8 @@ pipeline {
         }
     }
     environment {
-        RHT_OCP4_DEV_USER = 'ravivittal-s2i-jenkins'
-        DEPLOYMENT_STAGE = 'ravivittal-s2i'
+        RHT_OCP4_DEV_USER = 'ravivittal-s2i'
+        DEPLOYMENT_STAGE = 'shopping-cart-stage'
         DEPLOYMENT_PRODUCTION = 'shopping-cart-production'
     }
     stages {
